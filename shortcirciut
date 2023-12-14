@@ -1,0 +1,24 @@
+//conditional operator
+let a=10
+let b=20
+let res=a>b?"a is greater":"b is greater"
+//cond?what if the cond is true:what if cond is false
+console.log(res)
+let issubscribed=false
+let isprime=false
+let btn=issubscribed?"<button>Unsubscribe</button>":"<button>subscribe</button>"
+//if(cond){}else{}
+document.write(btn)
+
+//a||b=>true if either a or b is true
+//a&&b=>true if both a & b is true
+
+let firstname="jhon"
+let lastname="adam"
+console.log(firstname||lastname||"anonymous")// it will return first true value
+
+let fullname=firstname&&lastname&&(firstname+" "+lastname)//it will return first false value
+console.log("fullname:"+fullname)
+
+document.write(isprime&&"delivered today")
+//if(cond){}
