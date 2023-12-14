@@ -1,2 +1,2 @@
-# Javascript_Trainings
+# Javascript_Practice
 Javascript_Topics_examples
